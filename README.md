@@ -1,10 +1,10 @@
-# 🚀 AWS Data Engineering Pipeline
+[datalake.drawio](https://github.com/user-attachments/files/24554736/datalake.drawio)# 🚀 AWS Data Engineering Pipeline
 
-Este repositório contém um **pipeline de engenharia de dados na AWS**, seguindo boas práticas de **Data Lake**, **arquitetura em camadas (Bronze / Silver / Gold)** e automação para ingestão, transformação e disponibilização de dados para análise.
+Este repositório contém um **pipeline de engenharia de dados na AWS**, seguindo boas práticas de **Data Lake**, **arquitetura em camadas (Bronze / Silver / Gold)** e automação para ingestão, transformação e disponibilização de dados para análise e também uma bordagem sobre infrastrutura como código (Iac).
 
 ---
 
-## 📌 Visão Geral
+## Visão Geral
 
 O objetivo deste projeto é demonstrar a construção de um pipeline de dados escalável e confiável utilizando serviços da AWS, desde a extração de dados de fontes externas até a disponibilização para consumo analítico.
 
@@ -17,7 +17,7 @@ O objetivo deste projeto é demonstrar a construção de um pipeline de dados es
 
 ---
 
-## 🏗️ Arquitetura do Pipeline
+##  Arquitetura do Pipeline
 
 ```text
 ┌──────────────┐
@@ -42,7 +42,7 @@ O objetivo deste projeto é demonstrar a construção de um pipeline de dados es
 
 ---
 
-## 🧱 Data Lake Layers
+##  Data Lake Layers
 
 ### 🥉 Bronze (Raw)
 - Dados brutos
@@ -61,7 +61,7 @@ O objetivo deste projeto é demonstrar a construção de um pipeline de dados es
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - **AWS S3** – Data Lake
 - **AWS IAM** – Controle de acesso
@@ -69,10 +69,11 @@ O objetivo deste projeto é demonstrar a construção de um pipeline de dados es
 - **Boto3** – Integração com AWS
 - **Pandas / PySpark** – Transformações de dados
 - **Git & GitHub** – Versionamento
+- **Terraform - Iac
 
 ---
 
-## 📂 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```text
 ├── data/
@@ -91,18 +92,20 @@ O objetivo deste projeto é demonstrar a construção de um pipeline de dados es
 └── .gitignore
 ```
 
----
+##  ARQUITETURA DOS DADOS
+
+
 
 ## ⚙️ Configuração do Ambiente
 
-### 1️⃣ Clonar o repositório
+###  Clonar o repositório
 
 ```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
 ```
 
-### 2️⃣ Criar ambiente virtual
+###  Criar ambiente virtual
 
 ```bash
 python -m venv venv
@@ -110,13 +113,13 @@ source venv/bin/activate  # Linux/Mac
 venv\\Scripts\\activate     # Windows
 ```
 
-### 3️⃣ Instalar dependências
+###  Instalar dependências
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Configurar credenciais AWS
+###  Configurar credenciais AWS
 
 ```bash
 aws configure
@@ -124,7 +127,7 @@ aws configure
 
 ---
 
-## ▶️ Execução do Pipeline
+##  Execução do Pipeline
 
 ```bash
 python src/main.py
@@ -138,7 +141,7 @@ Fluxo executado:
 
 ---
 
-## 🔐 Segurança e Boas Práticas
+##  Segurança e Boas Práticas
 
 - Princípio do menor privilégio (IAM)
 - Separação de permissões por camada
@@ -147,7 +150,7 @@ Fluxo executado:
 
 ---
 
-## 📈 Possíveis Evoluções
+##  Possíveis Evoluções
 
 - Orquestração com Apache Airflow
 - Processamento distribuído com AWS Glue / Spark
@@ -157,7 +160,7 @@ Fluxo executado:
 
 ---
 
-## 🤝 Contribuição
+##  Contribuição
 
 Contribuições são bem-vindas!
 
@@ -166,18 +169,12 @@ Contribuições são bem-vindas!
 3. Commit suas alterações
 4. Abra um Pull Request
 
----
 
-## 📄 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
-
----
-
-## 👤 Autor
+## Autor
 
 **Laurindo Dumba**  
-Engenheiro de Dados | Cloud & Analytics  
+Engenheiro de Dados 
 
 🔗 LinkedIn: https://www.linkedin.com
 
