@@ -94,6 +94,7 @@ O objetivo deste projeto é demonstrar a construção de um pipeline de dados es
 
 ##  ARQUITETURA DOS DADOS
 
+<img width="1487" height="1013" alt="Datalake drawio" src="https://github.com/user-attachments/assets/490adb27-8d6c-4b83-b6bb-233743117895" />
 
 
 ## ⚙️ Configuração do Ambiente
